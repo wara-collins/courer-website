@@ -112,8 +112,13 @@
       
       <!--service section ends-->
       <!--testimonial section starts-->
+      <div class="test">
+          <h6>,,<h5>testimonial</h5></h6>
+          <h4>Our Awesome Clients</h4>
+          </div>
       <div class="testimonial-section">
         <div class="testimonial">
+          
           <h1>FANTASTIC SERVICE</h1>
           <p>I'm loving the look and the very useful,<br> included complete page templates.<br> Such a time saver! I'm also glad to see<br> Bootstrap v5 support coming. Highly recommended</p>
             <div class="stars">
@@ -160,9 +165,27 @@
           <p>CEO</p>
           
         </div>
-        </div>
+        <div class="swiper-pagination"></div>
+         </div>
         </div>
       </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.testimonial-swiper', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      centeredSlides: true,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      slideActiveClass: 'swiper-slide-active',
+      slideNextClass: 'swiper-slide-next',
+      slidePrevClass: 'swiper-slide-prev',
+    });
+  </script>
+       
          
       
       <!--testimonial section ends-->
@@ -214,7 +237,10 @@
       <div class="footer-1">
         <div class="heading-1">
           <h3>Get an update every week</h3>
-          <p>We ensure that your product is delivered in the safest possible<br>manner, at the correct location, at the right time.</p>
+          <p>We ensure that your product is delivered in the safest possible<br>manner, at the correct location, at the right time.
+
+.</p>
+        </div>
         <div class="heading-2">
           <h2>SUBSCRIBE TO NEWSLETTER</h2>
           <input type="email" placeholder="ENTER YOUR EMAIL">
@@ -222,6 +248,49 @@
         </div>
 
       </div>
+      <div class="footer-2">
+        <div class="footer-logo">
+          <img src="New folder/logo.png" alt="">
+          <p>The most trusted Courier<br>company in your area.</p>
+        </div>
+        <div class="footer-links">
+          <div class="links-1">
+          <h3>OTHER LINKS</h3>
+          <div class="blog-1">
+          <a href="#">Blogs</a><br>
+          <a href="#">Movers Website</a><br>
+          <a href="#">Traffic Update</a><br>
+          <a href="#">Contact Us</a><br>
+          </div>
+        </div>
+        <div class="links-2">
+          <h3>SERVICES</h3>
+          <div class="blog-2">
+          <a href="#">ArtworkS</a><br>
+          <a href="#">Documents</a><br>
+          </div>
+        </div>
+          <div class="links-3">
+          <h3>Customer Care</h3>
+            <div class="finalblog">
+          <a href="#">About Us</a><br>
+          <a href="#">Get Update</a><br>
+          </div>
+          </div>
+          </div>
+      </div>
+          <div class="footer-3">
+            <div class="footer-company">
+              <p>All rights Reserved © Your Company, 2021</p>
+            </div>
+            <div class="footer-theme">
+              <p>Made with <i class="fa-solid fa-heart"></i> by<a href="#">ThemeWagon</a></p>
+
+            </div>
+          </div>
+  
+
+        
       <!--footer section ends-->
 
 
