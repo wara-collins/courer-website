@@ -137,14 +137,12 @@ color: black;
 .awards h1{
   color: orangered;
 }
-.vidoe{
+.vidoe-link{
   margin-left: 100px;
-  margin-top: 170px;
+  margin-top: 100px;
 }
-.vidoe iframe{
-  height: 500px;
-  width: 1200px;
-  border-radius: 15px;
+.vidoe-link img{
+  border-radius: 18px;
 }
 .test h6{
   font-size: 300px;
@@ -295,65 +293,26 @@ color: orangered;
   font-size: 18px;
 }
 .contact-section{
-  justify-content: center;
-  align-items: center;
   margin-top: 300px;
-  margin-left: 150px;
-}
-.contact-section h3{
-  color: orangered;
-  text-align: center;
-}
-.contact-section h2{
-  color: black;
-  text-align: center;
-  font-size: 30px;
-  height: 5px;
-}
-.info{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 82%;
-  margin-left: 150px;
-  margin-top: 50px;
-  height: 400px;
-  background-size: cover;
 }
-.info img{
-  border-radius:10px;
-  margin-top: 60px;
-  background-color: blue;
-}
-.contact-info{
-  margin-left: 50px;
-  margin-top: -50px;
-
-}
-
-.contact-info p{
-  margin-left: 40px;
-  height: 60px;
-
-}
-.contact-card{
-  margin-top: 300px;
-}
-.contact-info{
-  background-color: #e5e5e5;
-  margin-top: 300px;
-
-}
-.contact-info h4{
+.contact-heading h1{
+  margin-left: 200px;
   color: black;
-  margin-left: 40px;
-  margin-top: 12px;
+  font-size: 40px;
+  margin-left: 700px;
+  margin-top: 0px;
 }
-.contact-info i{
+.contact-heading h2{
   color: orangered;
-  padding: 2px 8px;
-  margin-left: 10px;
+  font-size: 20px;
+  margin-left: 750px;
 }
+.contact-img{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
 .contact-button button{
   color: white;
   margin-top: 200px;
@@ -365,7 +324,43 @@ color: orangered;
   text-decoration: none;
   border: none;
 }
+.contact-info{
+  color: chartreuse;
+  margin-left: 890px;
+  margin-top: -510px;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+  height: 505px;
+  width: 400px;
 
+}
+.contact-icon{
+  color: black;
+  margin-left: 60px;
+  margin-top: 100px;
+  
+}
+.us h3{
+  color: black;
+  font-size: 30px;
+  margin-left: 60px;
+}
+.contact-icon i{
+  color: orangered;
+}
+.contact-icon p{
+  color: black;
+}
+.second-icon{
+  color: white;
+  margin-left: 160px;
+  margin-top: 120px;
+  font-size: 30px;
+  transition: 0.3s;
+}
+.second-icon i:hover{
+  color: orangered;
+}
 .footer-1{
   background-color: #14213b;
   height: 300px;
